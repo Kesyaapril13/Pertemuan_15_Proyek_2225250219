@@ -1,3 +1,4 @@
+HEAD
 # Kalkulator Geometri Bangun Datar
 
 ## Deskripsi
@@ -28,3 +29,6 @@ Proyek ini dirancang untuk membantu pengguna menghitung luas dan keliling perseg
 Pertemuan 14 — tahap perancangan proyek.
 
 Implementasi dan hasil pengujian akan dilengkapi pada tahap berikutnya.
+=======
+# Pertemuan_15_Proyek_2225250219
+>>>>>>> db437a9302b4edb2040258c89e8f65425313ea20

@@ -1,168 +1,153 @@
-# PROPOSAL PROYEK
-## KALKULATOR GEOMETRI BANGUN DATAR BERBASIS PYTHON
+# PROPOSAL PROYEK PERTEMUAN 15
+# KALKULATOR GEOMETRI BANGUN DATAR BERBASIS PYTHON
 
-### Identitas Mahasiswa
+## 1. Identitas Proyek
 
-Nama: Kesya Nur Aprilliani
+- Nama: Kesya Nur Aprilliani
+- NIM: 2225250219
+- Kelas: 3E
+- Program Studi: Pendidikan Matematika
+- Mata Kuliah: Algoritma dan Pemrograman
+- Pertemuan: 15
 
-NIM: 2225250219
+## 2. Deskripsi Proyek
 
-Program Studi: Pendidikan Matematika
+Kalkulator Geometri Bangun Datar merupakan program sederhana berbasis Python yang dibuat untuk membantu pengguna menghitung luas dan keliling beberapa jenis bangun datar. Program ini menerapkan konsep matematika ke dalam bahasa pemrograman sehingga proses perhitungan dapat dilakukan secara lebih praktis dan sistematis.
 
-Kelas: 3E
+Bangun datar yang tersedia dalam program meliputi persegi, persegi panjang, segitiga, dan lingkaran. Pengguna dapat memilih jenis bangun datar, memasukkan nilai yang diperlukan, kemudian memperoleh hasil perhitungan secara otomatis.
 
-Mata Kuliah: Algoritma dan Pemrograman
+## 3. Latar Belakang
 
-Pertemuan: 15 — Proyek
+Geometri merupakan salah satu materi matematika yang berkaitan dengan bentuk, ukuran, luas, dan keliling suatu bangun. Dalam pembelajaran matematika, peserta didik perlu memahami rumus serta mampu menerapkannya untuk menyelesaikan permasalahan.
 
-Tahun Akademik: 2026/2027 Ganjil
+Perkembangan teknologi memberikan kesempatan untuk menerapkan konsep matematika melalui program komputer. Oleh karena itu, dibuat program Kalkulator Geometri Bangun Datar menggunakan Python sebagai bentuk penerapan materi matematika dalam pemrograman.
 
+Program ini diharapkan dapat membantu pengguna melakukan perhitungan serta menjadi media pembelajaran untuk memahami hubungan antara rumus matematika dan algoritma pemrograman.
 
-## 1. Judul Proyek
+## 4. Tujuan Proyek
 
-Kalkulator Geometri Bangun Datar Berbasis Python
+1. Mengembangkan program kalkulator geometri menggunakan Python.
+2. Menerapkan rumus luas dan keliling bangun datar ke dalam program.
+3. Melatih penerapan variabel, fungsi, percabangan, perulangan, dan validasi input.
+4. Menghasilkan program yang mudah digunakan.
+5. Menguji ketepatan hasil perhitungan program.
 
-## 2. Latar Belakang
+## 5. Manfaat Proyek
 
-Matematika merupakan salah satu ilmu yang banyak diterapkan dalam kehidupan sehari-hari. Salah satu materi yang dipelajari dalam matematika adalah geometri, khususnya bangun datar. Dalam materi ini, peserta didik mempelajari berbagai bentuk bangun datar beserta cara menghitung luas dan kelilingnya.
+1. Mempermudah perhitungan luas dan keliling bangun datar.
+2. Membantu memahami penerapan rumus geometri.
+3. Meningkatkan keterampilan pemrograman Python.
+4. Melatih kemampuan berpikir logis, sistematis, dan teliti.
+5. Menjadi contoh penerapan teknologi dalam pembelajaran matematika.
 
-Namun, dalam proses pembelajaran, masih terdapat peserta didik yang mengalami kesulitan dalam mengingat rumus dan melakukan perhitungan luas serta keliling bangun datar. Oleh karena itu, diperlukan sebuah program sederhana yang dapat membantu proses perhitungan secara lebih praktis.
-
-Berdasarkan permasalahan tersebut, dibuat proyek Kalkulator Geometri Bangun Datar menggunakan bahasa pemrograman Python. Program ini dirancang untuk menghitung luas dan keliling beberapa bangun datar serta memberikan hasil perhitungan berdasarkan nilai yang dimasukkan oleh pengguna.
-
-## 3. Identifikasi Masalah
-
-1. Peserta didik terkadang mengalami kesulitan dalam mengingat rumus luas dan keliling bangun datar.
-2. Perhitungan secara manual membutuhkan ketelitian agar tidak terjadi kesalahan.
-3. Belum semua peserta didik memanfaatkan program sederhana untuk membantu perhitungan matematika.
-
-## 4. Rumusan Masalah
-
-1. Bagaimana merancang program kalkulator geometri menggunakan Python?
-2. Bagaimana menerapkan rumus luas dan keliling bangun datar ke dalam program?
-3. Bagaimana membuat program yang mudah digunakan dan dapat memvalidasi masukan pengguna?
-
-## 5. Tujuan Proyek
-
-1. Membuat program perhitungan luas dan keliling bangun datar menggunakan Python.
-2. Menerapkan konsep matematika ke dalam pemrograman.
-3. Membantu pengguna melakukan perhitungan secara praktis.
-4. Melatih kemampuan menggunakan fungsi, percabangan, perulangan, dan validasi input dalam Python.
-
-## 6. Manfaat Proyek
-
-1. Membantu pengguna menghitung luas dan keliling bangun datar.
-2. Mempermudah pemahaman penerapan rumus geometri.
-3. Menjadi sarana pembelajaran pemrograman Python.
-4. Mengembangkan kemampuan berpikir logis dan sistematis.
-
-## 7. Fitur Program
-
-Program memiliki beberapa fitur utama, yaitu:
+## 6. Fitur Program
 
 1. Menghitung luas dan keliling persegi.
 2. Menghitung luas dan keliling persegi panjang.
 3. Menghitung luas dan keliling segitiga.
 4. Menghitung luas dan keliling lingkaran.
-5. Memvalidasi input agar pengguna tidak memasukkan nilai yang tidak sesuai.
-6. Menampilkan hasil perhitungan.
-7. Menyediakan pilihan untuk melakukan perhitungan kembali.
+5. Menerima input dari pengguna.
+6. Melakukan validasi nilai masukan.
+7. Menampilkan hasil perhitungan.
+8. Menyediakan menu untuk mengulangi perhitungan atau mengakhiri program.
 
-## 8. Input, Proses, dan Output (IPO)
+## 7. Rumus Matematika
+
+### A. Persegi
+Luas = sisi × sisi
+
+Keliling = 4 × sisi
+
+### B. Persegi Panjang
+Luas = panjang × lebar
+
+Keliling = 2 × (panjang + lebar)
+
+### C. Segitiga
+Luas = ½ × alas × tinggi
+
+Keliling = sisi a + sisi b + sisi c
+
+### D. Lingkaran
+Luas = π × r²
+
+Keliling = 2 × π × r
+
+Keterangan:
+- π = 3,14 atau 22/7.
+- r = jari-jari lingkaran.
+
+## 8. Analisis Input, Proses, dan Output
 
 ### A. Input
-
 - Pilihan jenis bangun datar.
-- Panjang sisi persegi.
-- Panjang dan lebar persegi panjang.
-- Alas, tinggi, dan sisi-sisi segitiga.
-- Jari-jari lingkaran.
+- Nilai sisi persegi.
+- Nilai panjang dan lebar persegi panjang.
+- Nilai alas, tinggi, dan sisi segitiga.
+- Nilai jari-jari lingkaran.
 
 ### B. Proses
-
-Program memproses nilai yang dimasukkan pengguna menggunakan rumus matematika sesuai jenis bangun datar.
-
-Rumus yang digunakan:
-
-**Persegi**
-- Luas = sisi × sisi
-- Keliling = 4 × sisi
-
-**Persegi Panjang**
-- Luas = panjang × lebar
-- Keliling = 2 × (panjang + lebar)
-
-**Segitiga**
-- Luas = ½ × alas × tinggi
-- Keliling = sisi a + sisi b + sisi c
-
-**Lingkaran**
-- Luas = π × r × r
-- Keliling = 2 × π × r
+1. Menerima pilihan bangun datar dari pengguna.
+2. Meminta nilai sesuai bangun datar yang dipilih.
+3. Memeriksa validitas nilai masukan.
+4. Melakukan perhitungan menggunakan rumus matematika.
+5. Menyiapkan hasil luas dan keliling.
 
 ### C. Output
-
-- Jenis bangun datar yang dipilih.
-- Hasil perhitungan luas.
-- Hasil perhitungan keliling.
-- Pesan kesalahan apabila input tidak valid.
+- Jenis bangun datar.
+- Hasil luas.
+- Hasil keliling.
+- Pesan apabila terdapat kesalahan input.
 
 ## 9. Algoritma Program
 
-1. Mulai program.
+1. Memulai program.
 2. Menampilkan menu pilihan bangun datar.
-3. Pengguna memilih jenis bangun datar.
-4. Program meminta pengguna memasukkan nilai yang diperlukan.
-5. Program memeriksa validitas input.
-6. Program menghitung luas dan keliling berdasarkan rumus.
-7. Program menampilkan hasil perhitungan.
-8. Program memberikan pilihan untuk mengulangi perhitungan.
-9. Program selesai apabila pengguna memilih keluar.
+3. Meminta pengguna memilih menu.
+4. Memeriksa pilihan pengguna.
+5. Meminta nilai yang dibutuhkan.
+6. Memvalidasi nilai masukan.
+7. Menghitung luas dan keliling.
+8. Menampilkan hasil perhitungan.
+9. Menanyakan apakah pengguna ingin melakukan perhitungan kembali.
+10. Mengakhiri program apabila pengguna memilih keluar.
 
 ## 10. Pseudocode
 
 ```text
 START
 
-REPEAT
+WHILE pengguna ingin melanjutkan:
     Tampilkan menu bangun datar
-    Input pilihan pengguna
+    Input pilihan
 
-    IF pilihan = 1 THEN
+    IF pilihan = 1:
         Input sisi
-        Hitung luas persegi
-        Hitung keliling persegi
+        Hitung luas dan keliling persegi
 
-    ELSE IF pilihan = 2 THEN
+    ELSE IF pilihan = 2:
         Input panjang dan lebar
-        Hitung luas persegi panjang
-        Hitung keliling persegi panjang
+        Hitung luas dan keliling persegi panjang
 
-    ELSE IF pilihan = 3 THEN
-        Input alas, tinggi, dan tiga sisi
-        Hitung luas segitiga
-        Hitung keliling segitiga
+    ELSE IF pilihan = 3:
+        Input alas, tinggi, sisi a, sisi b, sisi c
+        Hitung luas dan keliling segitiga
 
-    ELSE IF pilihan = 4 THEN
+    ELSE IF pilihan = 4:
         Input jari-jari
-        Hitung luas lingkaran
-        Hitung keliling lingkaran
+        Hitung luas dan keliling lingkaran
 
-    ELSE
+    ELSE:
         Tampilkan pesan pilihan tidak valid
-    END IF
 
-    Tampilkan hasil perhitungan
-    Tanya apakah ingin mengulang
+    Tampilkan hasil jika input valid
 
-UNTIL pengguna memilih keluar
+END WHILE
 
 END
 ```
 
 ## 11. Struktur Program
-
-Struktur folder proyek direncanakan sebagai berikut:
 
 ```text
 Proyek_Matematika_2225250219/
@@ -174,32 +159,32 @@ Proyek_Matematika_2225250219/
 ├── src/
 │   └── kalkulator_geometri.py
 │
-├── tests/
-│   └── test_case.md
-│
-└── .gitignore
+└── tests/
+    └── test_case.md
 ```
 
 ## 12. Rencana Pengujian
 
-| No. | Jenis Pengujian | Tujuan |
+Pengujian dilakukan untuk memastikan program menghasilkan perhitungan yang sesuai dengan rumus matematika.
+
+| No. | Pengujian | Hasil yang Diharapkan |
 |---|---|---|
-| 1 | Menghitung luas dan keliling persegi | Memastikan rumus persegi berjalan benar |
-| 2 | Menghitung luas dan keliling persegi panjang | Memastikan perhitungan sesuai rumus |
-| 3 | Menghitung luas dan keliling segitiga | Memastikan hasil perhitungan benar |
-| 4 | Menghitung luas dan keliling lingkaran | Memastikan penggunaan nilai pi benar |
-| 5 | Memasukkan nilai negatif | Memastikan validasi input berjalan |
-| 6 | Memasukkan pilihan menu yang salah | Memastikan program menangani pilihan tidak valid |
+| 1 | Perhitungan persegi | Luas dan keliling benar |
+| 2 | Perhitungan persegi panjang | Luas dan keliling benar |
+| 3 | Perhitungan segitiga | Luas dan keliling benar |
+| 4 | Perhitungan lingkaran | Luas dan keliling benar |
+| 5 | Input nilai negatif | Ditolak oleh validasi |
+| 6 | Pilihan menu tidak tersedia | Pesan kesalahan ditampilkan |
 
 ## 13. Teknologi yang Digunakan
 
-1. Bahasa pemrograman Python.
-2. Visual Studio Code sebagai editor kode.
-3. Git sebagai sistem pengelolaan versi.
-4. GitHub sebagai tempat penyimpanan repository proyek.
+- Python untuk mengembangkan program.
+- Visual Studio Code sebagai editor.
+- Git untuk pengelolaan versi.
+- GitHub untuk penyimpanan dan dokumentasi proyek.
 
-## 14. Penutup
+## 14. Kesimpulan
 
-Proyek Kalkulator Geometri Bangun Datar diharapkan dapat menjadi salah satu bentuk penerapan ilmu matematika ke dalam teknologi pemrograman. Melalui proyek ini, konsep geometri tidak hanya dipelajari secara teori, tetapi juga diterapkan dalam sebuah program yang dapat digunakan untuk membantu perhitungan luas dan keliling bangun datar.
+Proyek Kalkulator Geometri Bangun Datar merupakan penerapan konsep matematika ke dalam pemrograman Python. Program ini dirancang untuk membantu pengguna menghitung luas dan keliling beberapa bangun datar melalui menu yang sederhana.
 
-Selain itu, proyek ini menjadi sarana untuk meningkatkan keterampilan dalam menggunakan Python, menyusun algoritma, menerapkan fungsi, serta melakukan pengujian program.
+Melalui proyek ini, konsep geometri dapat diterapkan secara langsung dengan memanfaatkan algoritma, fungsi, percabangan, perulangan, dan validasi input. Dengan demikian, proyek ini dapat menjadi sarana untuk meningkatkan pemahaman matematika sekaligus keterampilan pemrograman.

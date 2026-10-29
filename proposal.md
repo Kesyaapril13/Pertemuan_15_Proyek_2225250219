@@ -219,11 +219,11 @@ Proyek ini dikerjakan secara individu. Pembagian peran berikut merupakan pembagi
 
 Nama repositori GitHub:
 
-`Proyek_Matematika_2225250219`
+`Pertemuan_15_Proyek_2225250219`
 
 Repositori digunakan untuk menyimpan proposal, struktur program, README, dan riwayat perubahan menggunakan Git.
 
-URL repositori: diisi setelah repositori GitHub dibuat.
+URL repositori: https://github.com/Kesyaapril13/Pertemuan_15_Proyek_2225250219
 
 ### 15. Penutup
 

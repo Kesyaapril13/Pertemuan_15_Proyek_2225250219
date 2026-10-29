@@ -1,45 +1,68 @@
-# Kalkulator Geometri Bangun Datar
+# Kalkulator Geometri Bangun Datar Berbasis Python
 
-## Deskripsi
-Kalkulator Geometri Bangun Datar merupakan program sederhana berbasis Python yang digunakan untuk menghitung luas dan keliling beberapa bangun datar. Program ini dibuat untuk membantu proses pembelajaran matematika, khususnya materi geometri.
+## Pertemuan 15 – Implementasi Proyek
 
-## Identitas
+### Deskripsi
+Kalkulator Geometri Bangun Datar merupakan program berbasis Python yang digunakan untuk menghitung luas dan keliling persegi, persegi panjang, segitiga, dan lingkaran. Program ini dibuat sebagai penerapan konsep matematika dalam pemrograman.
+
+### Identitas
 - Nama: Kesya Nur Aprilliani
 - NIM: 2225250219
 - Kelas: 3E
 - Program Studi: Pendidikan Matematika
 - Mata Kuliah: Algoritma dan Pemrograman
 
-## Fitur Program
-1. Menghitung luas dan keliling persegi.
-2. Menghitung luas dan keliling persegi panjang.
-3. Menghitung luas dan keliling segitiga.
-4. Menghitung luas dan keliling lingkaran.
-5. Memvalidasi masukan pengguna.
-6. Menampilkan hasil perhitungan.
+### Tujuan
+1. Menerapkan rumus geometri ke dalam program Python.
+2. Membuat aplikasi perhitungan bangun datar.
+3. Melatih penggunaan fungsi, percabangan, perulangan, dan validasi input.
+4. Menguji ketepatan hasil program.
 
-## Struktur Proyek
-- `proposal.md`: rancangan proyek.
-- `main.py`: program utama.
-- `src/kalkulator_geometri.py`: modul perhitungan geometri.
-- `tests/test_case.md`: dokumentasi pengujian program.
-- `.gitignore`: daftar berkas yang diabaikan Git.
+### Fitur Program
+1. Perhitungan luas dan keliling persegi.
+2. Perhitungan luas dan keliling persegi panjang.
+3. Perhitungan luas dan keliling segitiga.
+4. Perhitungan luas dan keliling lingkaran.
+5. Validasi masukan pengguna.
+6. Tampilan hasil perhitungan.
 
-## Cara Menjalankan Program
-1. Buka folder proyek melalui VS Code.
-2. Buka terminal.
+### Struktur Folder
+
+```text
+Proyek_Matematika_2225250219/
+│
+├── README.md
+├── proposal.md
+├── main.py
+├── src/
+│   └── kalkulator_geometri.py
+└── tests/
+    └── test_case.md
+```
+
+### Cara Menjalankan Program
+
+1. Buka folder proyek melalui Visual Studio Code.
+2. Buka terminal pada folder utama proyek.
 3. Jalankan perintah:
 
 ```bash
 python main.py
 ```
 
-4. Pilih bangun datar yang ingin dihitung.
-5. Masukkan nilai sesuai instruksi program.
-6. Lihat hasil perhitungan.
+4. Pilih jenis bangun datar.
+5. Masukkan nilai sesuai petunjuk.
+6. Program menampilkan hasil perhitungan.
 
-## Pengujian
-Pengujian dilakukan untuk memastikan setiap fitur perhitungan dapat berjalan sesuai dengan rumus matematika dan masukan yang diberikan pengguna.
+### Pengujian Program
 
-## Status Proyek
-Proyek telah memasuki tahap implementasi dan pengujian pada Pertemuan 15.
+Pengujian dilakukan terhadap setiap fitur perhitungan, validasi input, dan pilihan menu. Hasil pengujian didokumentasikan dalam folder `tests`.
+
+### Teknologi
+- Python
+- Visual Studio Code
+- Git
+- GitHub
+
+### Status Proyek
+Pertemuan 15 – Implementasi dan pengujian proyek Kalkulator Geometri Bangun Datar.
